@@ -1,0 +1,144 @@
+body{
+    background-color: #ecf2f8;
+}
+
+div.container{
+    display: flex;
+    justify-content: center;
+}
+
+#testimonial_containers{
+    display: flex;
+    flex-direction: column;
+}
+
+#testimonial_containers_upper{
+    display: flex;
+}
+
+#testimonial_containers_down{
+    display: flex;
+}
+
+#Daniel_container{
+    display: flex;
+    flex-direction: column;
+    background-color: #7541c8;
+    width: auto;
+    border-radius: 7px;
+    padding: 25px 25px 20px 25px;
+    margin: 25px 25px 25px 0px;
+}
+
+#Jonathan_container{
+    display: flex;
+    flex-direction: column;
+    background-color: #48556a;
+    width: auto;
+    border-radius: 7px;
+    padding: 25px 25px 10px 25px;
+    margin: 25px 25px 25px 0px;
+}
+
+#Jeanette_container{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: auto;
+    border-radius: 7px;
+    padding: 25px 25px 10px 25px;
+    margin: 0px 25px 0px 0px;
+}
+
+#Patrick_container{
+    display: flex;
+    flex-direction: column;
+    background-color: #19212e;
+    width: auto;
+    border-radius: 7px;
+    padding: 25px 25px 10px 25px;
+    margin: 0px 25px 0px 0px;
+}
+
+#Kira_container{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: auto;
+    border-radius: 7px;
+    padding: 25px 25px 10px 25px;
+    margin: 25px 0px 0px 0px;
+}
+
+#profile_dark img{
+    width: 30px;
+    border-radius: 50px;
+    float: left;
+    border: 2px solid #b485ff;
+}
+
+#profile_light img{
+    width: 30px;
+    border-radius: 50px;
+    float: left;
+}
+
+p.username_light{
+    margin: 0px 0px 0px 45px;
+    color: #ffffff;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+p.username_light + p{
+    margin: 0px 0px 0px 45px;
+    color: #ffffff;
+    opacity: 50%;
+    font-size: 11px;
+    font-family: sans-serif;
+}
+
+p.tittle_light{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+p.tittle_light + p{
+    color: #ffffff;
+    opacity: 70%;
+    font-size: 11.5px;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+p.username_dark{
+    margin: 0px 0px 0px 45px;
+    color: #19212e;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+p.username_dark + p{
+    margin: 0px 0px 0px 45px;
+    color: #19212e;
+    opacity: 50%;
+    font-size: 11px;
+    font-family: sans-serif;
+}
+
+p.tittle_dark{
+    color: #19212e;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+p.tittle_dark + p{
+    color: #19212e;
+    opacity: 70%;
+    font-size: 11.5px;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
