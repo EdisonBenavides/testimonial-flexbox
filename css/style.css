@@ -4,70 +4,67 @@ body{
 
 div.container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    width: 70%;
 }
 
 #testimonial_containers{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 77vh;
+    flex-basis: 74%;
 }
 
-#testimonial_containers_upper{
-    display: flex;
-}
-
+#testimonial_containers_upper,
 #testimonial_containers_down{
     display: flex;
+    justify-content: space-between;
 }
 
 #Daniel_container{
     display: flex;
     flex-direction: column;
     background-color: #7541c8;
-    width: auto;
     border-radius: 7px;
     padding: 25px 25px 20px 25px;
-    margin: 25px 25px 25px 0px;
+    flex-basis: 61%;
 }
 
 #Jonathan_container{
     display: flex;
     flex-direction: column;
     background-color: #48556a;
-    width: auto;
     border-radius: 7px;
     padding: 25px 25px 10px 25px;
-    margin: 25px 25px 25px 0px;
+    flex-basis: 23%;
 }
 
 #Jeanette_container{
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
-    width: auto;
     border-radius: 7px;
     padding: 25px 25px 10px 25px;
-    margin: 0px 25px 0px 0px;
+    flex-basis: 24%;
 }
 
 #Patrick_container{
     display: flex;
     flex-direction: column;
     background-color: #19212e;
-    width: auto;
     border-radius: 7px;
     padding: 25px 25px 10px 25px;
-    margin: 0px 25px 0px 0px;
+    flex-basis: 60%;
 }
 
 #Kira_container{
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
-    width: auto;
     border-radius: 7px;
     padding: 25px 25px 10px 25px;
-    margin: 25px 0px 0px 0px;
+    flex-basis: 18%;
 }
 
 #profile_dark img{
